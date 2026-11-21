@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
+  <title id="t">Career journey</title>
+  <desc id="d">From hotel management in 2010 through asset management, HR and general affairs, regional management and facilities supervision, to system analyst and developer in 2023 and business system auditor in 2026.</desc>
+  <style>
+    .thread{stroke-dasharray:2400;animation:draw 4.2s .2s cubic-bezier(.45,0,.25,1) both}
+    .node{animation:pop .5s ease-out both}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s 4.67s ease-out infinite both}
+    .cap{animation:fade 1s 4.5s ease-out both}
+    @keyframes draw{from{stroke-dashoffset:2400}to{stroke-dashoffset:0}}
+    @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+    @keyframes pulse{0%{opacity:.9;transform:scale(1)}80%,100%{opacity:0;transform:scale(2.4)}}
+    @keyframes fade{from{opacity:0}to{opacity:1}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}.pulse{display:none}}
+  </style>
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121A3F"/>
+      <stop offset="1" stop-color="#1D2B66"/>
+    </linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 6 L6 0" stroke="#F3F5FA" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="380" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="380" rx="22" fill="url(#grain)"/>
+  <defs>
+    <linearGradient id="thread" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="1220" y2="0">
+      <stop offset="0" stop-color="#F2B630"/>
+      <stop offset="0.76" stop-color="#F2B630"/>
+      <stop offset="0.84" stop-color="#2BB3A3"/>
+      <stop offset="1" stop-color="#2BB3A3"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 190 C105 190 105 178 150 178 C211.25 178 211.25 202 272.5 202 C333.75 202 333.75 178 395 178 C456.25 178 456.25 202 517.5 202 C578.75 202 578.75 178 640 178 C701.25 178 701.25 202 762.5 202 C823.75 202 823.75 178 885 178 C946.25 178 946.25 202 1007.5 202 C1068.75 202 1068.75 178 1130 178 C1175 178 1175 190 1220 190" fill="none" stroke="#F3F5FA" stroke-opacity=".07" stroke-width="10" stroke-linecap="round"/>
+  <path class="thread" d="M60 190 C105 190 105 178 150 178 C211.25 178 211.25 202 272.5 202 C333.75 202 333.75 178 395 178 C456.25 178 456.25 202 517.5 202 C578.75 202 578.75 178 640 178 C701.25 178 701.25 202 762.5 202 C823.75 202 823.75 178 885 178 C946.25 178 946.25 202 1007.5 202 C1068.75 202 1068.75 178 1130 178 C1175 178 1175 190 1220 190" fill="none" stroke="url(#thread)" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <g class="node" style="animation-delay:0.53s">
+      <line x1="150" y1="150" x2="150" y2="166" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="150" cy="178" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="150" cy="178" r="3.5" fill="#F2B630"/>
+      <text x="150" y="96" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2010</text>
+      <text x="150" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">Diploma, Hotel Management</text>
+      <text x="150" y="141" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">LPT Panghegar Bandung</text>
+    </g>
+    <g class="node" style="animation-delay:0.97s">
+      <line x1="272.5" y1="214" x2="272.5" y2="244" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="272.5" cy="202" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="272.5" cy="202" r="3.5" fill="#F2B630"/>
+      <text x="272.5" y="262" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2012</text>
+      <text x="272.5" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">Asset Management</text>
+      <text x="272.5" y="307" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Panghegar Group</text>
+    </g>
+    <g class="node" style="animation-delay:1.41s">
+      <line x1="395" y1="150" x2="395" y2="166" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="395" cy="178" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="395" cy="178" r="3.5" fill="#F2B630"/>
+      <text x="395" y="96" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2014</text>
+      <text x="395" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">Secretary of the Synod</text>
+      <text x="395" y="141" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">GKIm, Bandung</text>
+    </g>
+    <g class="node" style="animation-delay:1.86s">
+      <line x1="517.5" y1="214" x2="517.5" y2="244" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="517.5" cy="202" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="517.5" cy="202" r="3.5" fill="#F2B630"/>
+      <text x="517.5" y="262" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2014</text>
+      <text x="517.5" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">HR &amp; General Affairs</text>
+      <text x="517.5" y="307" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Dialogue Management Group</text>
+    </g>
+    <g class="node" style="animation-delay:2.3s">
+      <line x1="640" y1="150" x2="640" y2="166" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="640" cy="178" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="640" cy="178" r="3.5" fill="#F2B630"/>
+      <text x="640" y="96" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2016</text>
+      <text x="640" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">Regional Manager</text>
+      <text x="640" y="141" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Dialogue Management Group</text>
+    </g>
+    <g class="node" style="animation-delay:2.74s">
+      <line x1="762.5" y1="214" x2="762.5" y2="244" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="762.5" cy="202" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="762.5" cy="202" r="3.5" fill="#F2B630"/>
+      <text x="762.5" y="262" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2017</text>
+      <text x="762.5" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">General Affairs Staff</text>
+      <text x="762.5" y="307" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Cahaya Bangsa Classical School</text>
+    </g>
+    <g class="node" style="animation-delay:3.19s">
+      <line x1="885" y1="150" x2="885" y2="166" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="885" cy="178" r="10" fill="#121A3F" stroke="#F2B630" stroke-width="3"/>
+      <circle cx="885" cy="178" r="3.5" fill="#F2B630"/>
+      <text x="885" y="96" text-anchor="middle" font-size="20" font-weight="700" fill="#F2B630">2019</text>
+      <text x="885" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">General Affairs Supervisor</text>
+      <text x="885" y="141" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Cahaya Bangsa Classical School</text>
+    </g>
+    <g class="node" style="animation-delay:3.63s">
+      <line x1="1007.5" y1="214" x2="1007.5" y2="244" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      
+      <circle cx="1007.5" cy="202" r="10" fill="#121A3F" stroke="#2BB3A3" stroke-width="3"/>
+      <circle cx="1007.5" cy="202" r="3.5" fill="#2BB3A3"/>
+      <text x="1007.5" y="262" text-anchor="middle" font-size="20" font-weight="700" fill="#2BB3A3">2023</text>
+      <text x="1007.5" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">System Analyst &amp; Developer</text>
+      <text x="1007.5" y="307" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">Cahaya Bangsa Classical School</text>
+    </g>
+    <g class="node" style="animation-delay:4.07s">
+      <line x1="1130" y1="150" x2="1130" y2="166" stroke="#F3F5FA" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <circle class="pulse" cx="1130" cy="178" r="11" fill="none" stroke="#2BB3A3" stroke-width="2"/>
+      <circle cx="1130" cy="178" r="10" fill="#121A3F" stroke="#2BB3A3" stroke-width="3"/>
+      <circle cx="1130" cy="178" r="3.5" fill="#2BB3A3"/>
+      <text x="1130" y="96" text-anchor="middle" font-size="20" font-weight="700" fill="#2BB3A3">2026</text>
+      <text x="1130" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#F3F5FA" fill-opacity=".92">Business System Auditor</text>
+      <text x="1130" y="141" text-anchor="middle" font-size="13" fill="#F3F5FA" fill-opacity=".55">PT Heksatex Indah</text>
+    </g>
+    <g class="cap" font-size="14">
+      <text x="60" y="352" fill="#F2B630" fill-opacity=".85">Hospitality, operations and facilities</text>
+      <text x="1220" y="352" text-anchor="end" fill="#2BB3A3">Systems and software</text>
+    </g>
+  </g>
+</svg>
